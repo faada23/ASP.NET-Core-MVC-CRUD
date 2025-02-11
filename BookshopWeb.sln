@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookshopWeb", "BookshopWeb\BookshopWeb.csproj", "{CDCB9F02-CFF5-4875-9450-4C662A977D8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookshopDataAccess", "BookshopDataAccess\BookshopDataAccess.csproj", "{653D7B8C-6FE3-4C44-B2B2-B670804749AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookshopModels", "BookshopModels\BookshopModels.csproj", "{C6CE6C8A-6ECD-4DE4-B7CF-79A0E358C55B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookshopUtility", "BookshopUtility\BookshopUtility.csproj", "{1F1F4BDE-F8CC-46A2-97C6-385DE957D137}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{CDCB9F02-CFF5-4875-9450-4C662A977D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDCB9F02-CFF5-4875-9450-4C662A977D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDCB9F02-CFF5-4875-9450-4C662A977D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653D7B8C-6FE3-4C44-B2B2-B670804749AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653D7B8C-6FE3-4C44-B2B2-B670804749AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653D7B8C-6FE3-4C44-B2B2-B670804749AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653D7B8C-6FE3-4C44-B2B2-B670804749AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CE6C8A-6ECD-4DE4-B7CF-79A0E358C55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CE6C8A-6ECD-4DE4-B7CF-79A0E358C55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CE6C8A-6ECD-4DE4-B7CF-79A0E358C55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CE6C8A-6ECD-4DE4-B7CF-79A0E358C55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1F4BDE-F8CC-46A2-97C6-385DE957D137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1F4BDE-F8CC-46A2-97C6-385DE957D137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1F4BDE-F8CC-46A2-97C6-385DE957D137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1F4BDE-F8CC-46A2-97C6-385DE957D137}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

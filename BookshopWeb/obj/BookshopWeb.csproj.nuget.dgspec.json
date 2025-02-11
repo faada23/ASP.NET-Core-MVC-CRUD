@@ -1,17 +1,101 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\BookshopWeb.csproj": {}
+    "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\BookshopWeb.csproj": {}
   },
   "projects": {
-    "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\BookshopWeb.csproj": {
+    "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopDataAccess\\BookshopDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\BookshopWeb.csproj",
-        "projectName": "BookshopWeb",
-        "projectPath": "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\BookshopWeb.csproj",
+        "projectUniqueName": "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopDataAccess\\BookshopDataAccess.csproj",
+        "projectName": "BookshopDataAccess",
+        "projectPath": "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopDataAccess\\BookshopDataAccess.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\obj\\",
+        "outputPath": "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopModels\\BookshopModels.csproj": {
+                "projectPath": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopModels\\BookshopModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopModels\\BookshopModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopModels\\BookshopModels.csproj",
+        "projectName": "BookshopModels",
+        "projectPath": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopModels\\BookshopModels.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +126,178 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopUtility\\BookshopUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopUtility\\BookshopUtility.csproj",
+        "projectName": "BookshopUtility",
+        "projectPath": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopUtility\\BookshopUtility.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopUtility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\BookshopWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\BookshopWeb.csproj",
+        "projectName": "BookshopWeb",
+        "projectPath": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\BookshopWeb.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopDataAccess\\BookshopDataAccess.csproj": {
+                "projectPath": "D:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopDataAccess\\BookshopDataAccess.csproj"
+              },
+              "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopModels\\BookshopModels.csproj": {
+                "projectPath": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopModels\\BookshopModels.csproj"
+              },
+              "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopUtility\\BookshopUtility.csproj": {
+                "projectPath": "d:\\programmes\\vs code projects\\ASP.NET MVC\\BookshopUtility\\BookshopUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
